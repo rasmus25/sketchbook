@@ -11,7 +11,7 @@ Tallinn University of Technology
 #define CHIPSEL 10 // pin 10 : Slave Chip Select 1
 
 union SPI_data {
-  byte packet[3];
+  byte packet[4];
   long value;
 }data;
 
